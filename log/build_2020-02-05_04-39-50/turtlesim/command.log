@@ -1,0 +1,6 @@
+[0.030s] Invoking command in '/root/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /root/dev_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/turtlesim
+[3.613s] Invoked command in '/root/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /root/dev_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/turtlesim
+[3.614s] Invoking command in '/root/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /root/dev_ws/build/turtlesim -- -j6 -l6
+[21.942s] Invoked command in '/root/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /root/dev_ws/build/turtlesim -- -j6 -l6
+[22.171s] Invoking command in '/root/dev_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /root/dev_ws/build/turtlesim --target install -- -j6 -l6
+[22.677s] Invoked command in '/root/dev_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /root/dev_ws/build/turtlesim --target install -- -j6 -l6
