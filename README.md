@@ -7,15 +7,15 @@ Publish / Subscribe Framework for Robot Operating System 2
 - When message arrived, server sends ack to the client
 
 - Run 
-'''
+```
 ros2 run ros2comm serverRun
-'''
+```
 
 ## ros2client
 - Sends message to the server
 - Receives ack from the server
 
 - Run
-'''
+```
 ros2 run ros2comm clientRun
-'''
+```
