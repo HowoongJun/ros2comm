@@ -11,12 +11,12 @@ Publish / Subscribe Framework for Robot Operating System 2
 ```
 cd dev_ws/src
 ```
-- package create
-  - C++
+
+- C++
 ```
 ros2 pkg create --build-type ament_cmake --node-name [NODE_NAME] [PKG_NAME]
 ```
-  - Python   
+- Python   
 ```
 ros2 pkg create --build-type ament_python --node-name [NODE_NAME] [PKG_NAME]
 ```
