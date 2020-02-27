@@ -22,6 +22,8 @@ ros2 run ros2comm serverRun
 ros2 run ros2comm clientRun
 ```
 
+## Error List
+
 ### 'Package '~' not found' error
 - Move to your ros2 workspace
 
