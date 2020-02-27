@@ -16,23 +16,28 @@ cd dev_ws/src
 ```
 ros2 pkg create --build-type ament_cmake --node-name [NODE_NAME] [PKG_NAME]
 ```
+
   * Python
 ```
 ros2 pkg create --build-type ament_python --node-name [NODE_NAME] [PKG_NAME]
 ```
+
 - move back to ros2 workspcae
 ```
 cd ~/dev_ws
 ```
+
 - build package
 ```
 colcon build --packages-select [PKG_NAME]
 ```
+
 - run package
 ```
 . install/setup.bash
 ros2 run [PKG_NAME] [NODE_NAME]
 ```
+
 ## ros2server
 - Waiting for client's message
 - When message arrived, server sends ack to the client
