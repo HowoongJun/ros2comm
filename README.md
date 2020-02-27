@@ -21,20 +21,27 @@ ros2 pkg create --build-type ament_cmake --node-name [NODE_NAME] [PKG_NAME]
 ros2 pkg create --build-type ament_python --node-name [NODE_NAME] [PKG_NAME]
 ```
 
-- move back to ros2 workspcae
+- Move back to ros2 workspcae
 ```
 cd ~/dev_ws
 ```
 
-- build package
+- Build package
 ```
 colcon build --packages-select [PKG_NAME]
 ```
 
-- run package
+- Run package
 ```
 . install/setup.bash
 ros2 run [PKG_NAME] [NODE_NAME]
+```
+
+3. Install dependencies
+```
+sudo apt-get install ros-dashing-cv-bridge
+sudo apt-get install ros-dashing-vision-opencv
+sudo apt-get install python3-opencv
 ```
 
 ## ros2server
