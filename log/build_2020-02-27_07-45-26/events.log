@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.002118] (ros2client) JobQueued: {'identifier': 'ros2client', 'dependencies': OrderedDict()}
+[0.002943] (ros2server) JobQueued: {'identifier': 'ros2server', 'dependencies': OrderedDict()}
+[0.003026] (ros2client) JobStarted: {'identifier': 'ros2client'}
+[0.020326] (ros2server) JobStarted: {'identifier': 'ros2server'}
+[0.099694] (-) TimerEvent: {}
+[0.200604] (-) TimerEvent: {}
+[0.301320] (-) TimerEvent: {}
+[0.402213] (-) TimerEvent: {}
+[0.502800] (-) TimerEvent: {}
+[0.603450] (-) TimerEvent: {}
+[0.704248] (-) TimerEvent: {}
+[0.804806] (-) TimerEvent: {}
+[0.854205] (ros2client) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/root/dev_ws/build/ros2client', 'build', '--build-base', '/root/dev_ws/build/ros2client/build', 'install', '--prefix', '/root/dev_ws/install/ros2client', '--record', '/root/dev_ws/build/ros2client/install.log', '--single-version-externally-managed'], 'cwd': '/root/dev_ws/src/ros2comm/ros2client', 'env': {'HOSTNAME': '6adaca527544', 'LD_LIBRARY_PATH': '/opt/ros/dashing/lib', 'SHLVL': '1', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.42.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-c6c2f4c9-242f-4e57-98de-4f30a7e90d21.sock', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'PIPE_LOGGING': 'true', 'COLCON_PREFIX_PATH': '/root/dev_ws/install', 'ROS_DISTRO': 'dashing', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c3d219cb0e9a307561580565bf93dad9bffcc9d7.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/dashing/bin:/root/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'docker.for.mac.host.internal:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/dev_ws/install/ros2server:/root/dev_ws/install/ros2client:/opt/ros/dashing', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-c3d219cb0e9a307561580565bf93dad9bffcc9d7.sock', 'SHELL': '/bin/bash', 'VERBOSE_LOGGING': 'true', 'LC_ALL': 'C.UTF-8', 'PWD': '/root/dev_ws/build/ros2client', 'AMD_ENTRYPOINT': 'vs/server/remoteExtensionHostProcess', 'PYTHONPATH': '/root/dev_ws/install/ros2client/lib/python3.6/site-packages:/root/dev_ws/install/ros2server/lib/python3.6/site-packages:/root/dev_ws/install/ros2client/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'}, 'shell': False}
+[0.905289] (-) TimerEvent: {}
+[1.006295] (-) TimerEvent: {}
+[1.084959] (ros2client) StdoutLine: {'line': b'running egg_info\n'}
+[1.085908] (ros2client) StdoutLine: {'line': b'writing /root/dev_ws/build/ros2client/ros2client.egg-info/PKG-INFO\n'}
+[1.086633] (ros2client) StdoutLine: {'line': b'writing dependency_links to /root/dev_ws/build/ros2client/ros2client.egg-info/dependency_links.txt\n'}
+[1.087309] (ros2client) StdoutLine: {'line': b'writing entry points to /root/dev_ws/build/ros2client/ros2client.egg-info/entry_points.txt\n'}
+[1.087992] (ros2client) StdoutLine: {'line': b'writing requirements to /root/dev_ws/build/ros2client/ros2client.egg-info/requires.txt\n'}
+[1.088186] (ros2client) StdoutLine: {'line': b'writing top-level names to /root/dev_ws/build/ros2client/ros2client.egg-info/top_level.txt\n'}
+[1.106802] (-) TimerEvent: {}
+[1.131893] (ros2client) StdoutLine: {'line': b"reading manifest file '/root/dev_ws/build/ros2client/ros2client.egg-info/SOURCES.txt'\n"}
+[1.133440] (ros2client) StdoutLine: {'line': b"writing manifest file '/root/dev_ws/build/ros2client/ros2client.egg-info/SOURCES.txt'\n"}
+[1.134484] (ros2client) StdoutLine: {'line': b'running build\n'}
+[1.135103] (ros2client) StdoutLine: {'line': b'running build_py\n'}
+[1.135579] (ros2client) StdoutLine: {'line': b'copying ros2client/clientRun.py -> /root/dev_ws/build/ros2client/build/lib/ros2client\n'}
+[1.136056] (ros2client) StdoutLine: {'line': b'running install\n'}
+[1.136653] (ros2client) StdoutLine: {'line': b'running install_lib\n'}
+[1.137019] (ros2client) StdoutLine: {'line': b'copying /root/dev_ws/build/ros2client/build/lib/ros2client/clientRun.py -> /root/dev_ws/install/ros2client/lib/python3.6/site-packages/ros2client\n'}
+[1.137352] (ros2client) StdoutLine: {'line': b'byte-compiling /root/dev_ws/install/ros2client/lib/python3.6/site-packages/ros2client/clientRun.py to clientRun.cpython-36.pyc\n'}
+[1.137962] (ros2client) StdoutLine: {'line': b'running install_data\n'}
+[1.138710] (ros2client) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.141248] (ros2client) StdoutLine: {'line': b"removing '/root/dev_ws/install/ros2client/lib/python3.6/site-packages/ros2client-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[1.142182] (ros2client) StdoutLine: {'line': b'Copying /root/dev_ws/build/ros2client/ros2client.egg-info to /root/dev_ws/install/ros2client/lib/python3.6/site-packages/ros2client-0.0.0-py3.6.egg-info\n'}
+[1.143571] (ros2client) StdoutLine: {'line': b'running install_scripts\n'}
+[1.149122] (ros2server) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/root/dev_ws/build/ros2server', 'build', '--build-base', '/root/dev_ws/build/ros2server/build', 'install', '--prefix', '/root/dev_ws/install/ros2server', '--record', '/root/dev_ws/build/ros2server/install.log', '--single-version-externally-managed'], 'cwd': '/root/dev_ws/src/ros2comm/ros2server', 'env': {'HOSTNAME': '6adaca527544', 'LD_LIBRARY_PATH': '/opt/ros/dashing/lib', 'SHLVL': '1', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.42.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-c6c2f4c9-242f-4e57-98de-4f30a7e90d21.sock', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'PIPE_LOGGING': 'true', 'COLCON_PREFIX_PATH': '/root/dev_ws/install', 'ROS_DISTRO': 'dashing', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-c3d219cb0e9a307561580565bf93dad9bffcc9d7.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/dashing/bin:/root/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'docker.for.mac.host.internal:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/dev_ws/install/ros2server:/root/dev_ws/install/ros2client:/opt/ros/dashing', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-c3d219cb0e9a307561580565bf93dad9bffcc9d7.sock', 'SHELL': '/bin/bash', 'VERBOSE_LOGGING': 'true', 'LC_ALL': 'C.UTF-8', 'PWD': '/root/dev_ws/build/ros2server', 'AMD_ENTRYPOINT': 'vs/server/remoteExtensionHostProcess', 'PYTHONPATH': '/root/dev_ws/install/ros2server/lib/python3.6/site-packages:/root/dev_ws/install/ros2server/lib/python3.6/site-packages:/root/dev_ws/install/ros2client/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'}, 'shell': False}
+[1.168306] (ros2client) StdoutLine: {'line': b'Installing clientRun script to /root/dev_ws/install/ros2client/lib/ros2client\n'}
+[1.168987] (ros2client) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ws/build/ros2client/install.log'\n"}
+[1.195530] (ros2client) CommandEnded: {'returncode': 0}
+[1.207728] (-) TimerEvent: {}
+[1.222345] (ros2client) JobEnded: {'identifier': 'ros2client', 'rc': 0}
+[1.307993] (-) TimerEvent: {}
+[1.393678] (ros2server) StdoutLine: {'line': b'running egg_info\n'}
+[1.394780] (ros2server) StdoutLine: {'line': b'writing /root/dev_ws/build/ros2server/ros2server.egg-info/PKG-INFO\n'}
+[1.395918] (ros2server) StdoutLine: {'line': b'writing dependency_links to /root/dev_ws/build/ros2server/ros2server.egg-info/dependency_links.txt\n'}
+[1.396264] (ros2server) StdoutLine: {'line': b'writing entry points to /root/dev_ws/build/ros2server/ros2server.egg-info/entry_points.txt\n'}
+[1.396434] (ros2server) StdoutLine: {'line': b'writing requirements to /root/dev_ws/build/ros2server/ros2server.egg-info/requires.txt\n'}
+[1.396746] (ros2server) StdoutLine: {'line': b'writing top-level names to /root/dev_ws/build/ros2server/ros2server.egg-info/top_level.txt\n'}
+[1.408282] (-) TimerEvent: {}
+[1.446348] (ros2server) StdoutLine: {'line': b"reading manifest file '/root/dev_ws/build/ros2server/ros2server.egg-info/SOURCES.txt'\n"}
+[1.448106] (ros2server) StdoutLine: {'line': b"writing manifest file '/root/dev_ws/build/ros2server/ros2server.egg-info/SOURCES.txt'\n"}
+[1.448518] (ros2server) StdoutLine: {'line': b'running build\n'}
+[1.448876] (ros2server) StdoutLine: {'line': b'running build_py\n'}
+[1.449133] (ros2server) StdoutLine: {'line': b'copying ros2server/serverRun.py -> /root/dev_ws/build/ros2server/build/lib/ros2server\n'}
+[1.449471] (ros2server) StdoutLine: {'line': b'copying ros2server/comm.py -> /root/dev_ws/build/ros2server/build/lib/ros2server\n'}
+[1.449902] (ros2server) StdoutLine: {'line': b'running install\n'}
+[1.450203] (ros2server) StdoutLine: {'line': b'running install_lib\n'}
+[1.450794] (ros2server) StdoutLine: {'line': b'copying /root/dev_ws/build/ros2server/build/lib/ros2server/serverRun.py -> /root/dev_ws/install/ros2server/lib/python3.6/site-packages/ros2server\n'}
+[1.451228] (ros2server) StdoutLine: {'line': b'copying /root/dev_ws/build/ros2server/build/lib/ros2server/comm.py -> /root/dev_ws/install/ros2server/lib/python3.6/site-packages/ros2server\n'}
+[1.451850] (ros2server) StdoutLine: {'line': b'byte-compiling /root/dev_ws/install/ros2server/lib/python3.6/site-packages/ros2server/serverRun.py to serverRun.cpython-36.pyc\n'}
+[1.452260] (ros2server) StdoutLine: {'line': b'byte-compiling /root/dev_ws/install/ros2server/lib/python3.6/site-packages/ros2server/comm.py to comm.cpython-36.pyc\n'}
+[1.452843] (ros2server) StdoutLine: {'line': b'running install_data\n'}
+[1.453431] (ros2server) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.455945] (ros2server) StdoutLine: {'line': b"removing '/root/dev_ws/install/ros2server/lib/python3.6/site-packages/ros2server-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[1.457292] (ros2server) StdoutLine: {'line': b'Copying /root/dev_ws/build/ros2server/ros2server.egg-info to /root/dev_ws/install/ros2server/lib/python3.6/site-packages/ros2server-0.0.0-py3.6.egg-info\n'}
+[1.459217] (ros2server) StdoutLine: {'line': b'running install_scripts\n'}
+[1.481940] (ros2server) StdoutLine: {'line': b'Installing serverRun script to /root/dev_ws/install/ros2server/lib/ros2server\n'}
+[1.482713] (ros2server) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ws/build/ros2server/install.log'\n"}
+[1.510112] (ros2server) CommandEnded: {'returncode': 0}
+[1.510905] (-) TimerEvent: {}
+[1.522220] (ros2server) JobEnded: {'identifier': 'ros2server', 'rc': 0}
+[1.526031] (-) EventReactorShutdown: {}

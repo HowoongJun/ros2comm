@@ -11,7 +11,7 @@ def main(args=None):
     cvimg = cv2.imread('/root/dev_ws/src/ros2comm/ros2client/SampleImage.png', cv2.IMREAD_COLOR)
     cvbridge = CvBridge()
     
-    # time.sleep(0.1)
+    time.sleep(0.15)
     minimal_publisher.MsgPublishImage(cvbridge.cv2_to_imgmsg(cvimg, "bgr8"))
     print('Image Sent!')
     rclpy.spin_once(minimal_subscriber)

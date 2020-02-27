@@ -1,0 +1,22 @@
+[1.082s] running egg_info
+[1.083s] writing /root/dev_ws/build/ros2client/ros2client.egg-info/PKG-INFO
+[1.084s] writing dependency_links to /root/dev_ws/build/ros2client/ros2client.egg-info/dependency_links.txt
+[1.084s] writing entry points to /root/dev_ws/build/ros2client/ros2client.egg-info/entry_points.txt
+[1.085s] writing requirements to /root/dev_ws/build/ros2client/ros2client.egg-info/requires.txt
+[1.085s] writing top-level names to /root/dev_ws/build/ros2client/ros2client.egg-info/top_level.txt
+[1.129s] reading manifest file '/root/dev_ws/build/ros2client/ros2client.egg-info/SOURCES.txt'
+[1.130s] writing manifest file '/root/dev_ws/build/ros2client/ros2client.egg-info/SOURCES.txt'
+[1.132s] running build
+[1.132s] running build_py
+[1.132s] copying ros2client/clientRun.py -> /root/dev_ws/build/ros2client/build/lib/ros2client
+[1.133s] running install
+[1.134s] running install_lib
+[1.134s] copying /root/dev_ws/build/ros2client/build/lib/ros2client/clientRun.py -> /root/dev_ws/install/ros2client/lib/python3.6/site-packages/ros2client
+[1.134s] byte-compiling /root/dev_ws/install/ros2client/lib/python3.6/site-packages/ros2client/clientRun.py to clientRun.cpython-36.pyc
+[1.135s] running install_data
+[1.136s] running install_egg_info
+[1.138s] removing '/root/dev_ws/install/ros2client/lib/python3.6/site-packages/ros2client-0.0.0-py3.6.egg-info' (and everything under it)
+[1.139s] Copying /root/dev_ws/build/ros2client/ros2client.egg-info to /root/dev_ws/install/ros2client/lib/python3.6/site-packages/ros2client-0.0.0-py3.6.egg-info
+[1.140s] running install_scripts
+[1.165s] Installing clientRun script to /root/dev_ws/install/ros2client/lib/ros2client
+[1.166s] writing list of installed files to '/root/dev_ws/build/ros2client/install.log'
