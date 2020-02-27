@@ -3,11 +3,11 @@
 Publish / Subscribe Framework for Robot Operating System 2
 
 ## Prerequisite
-1. You need to make ros2 workspace (~/dev_ws)
+1. You need to make ros2 workspace
 [Link](https://index.ros.org/doc/ros2/Tutorials/Workspace/Creating-A-Workspace/)
 
 2. Make ros2 package
-- move to ros2 workspace src folder
+- Move to ros2 workspace src folder
 ```
 cd dev_ws/src
 ```
