@@ -17,7 +17,7 @@ cd dev_ws/src
 ros2 pkg create --build-type ament_cmake --node-name [NODE_NAME] [PKG_NAME]
 ```
 
-    * Python
+   * Python
 ```
 ros2 pkg create --build-type ament_python --node-name [NODE_NAME] [PKG_NAME]
 ```
